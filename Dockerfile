@@ -1,5 +1,9 @@
 FROM node:alpine3.20
 
+LABEL org.opencontainers.image.source=https://github.com/XCQ0607/nodejs-argo
+LABEL org.opencontainers.image.description="nodejs docker version"
+LABEL org.opencontainers.image.licenses=MIT
+
 WORKDIR /tmp
 
 COPY . .
